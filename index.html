@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: aquamarine;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: rgb(73, 73, 136);
+        }
+        nav a:hover{
+            background-color: rgb(7, 9, 9);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 7px;
+        }
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+            
+        }
+        .menu li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome to the Image Links Webpage</h1>
+        <p>Explore technology, nature, and food through linked images.</p>
+        <a href="https://www.perplexity.ai/search/pictres-of-technology-and-thei-Ly3vZWaaSry1vzClqYIVFw" target="_blank">
+            <img src="technology.jpeg" alt="Technology" width="300px">
+        </a>
+    </section>
+    <section id="gallery">
+        <h2>Nature Gallery</h2>
+        <div class="gallery">
+            <a href="https://unsplash.com/t/nature" target="_blank">
+                <img src="joseph-corl-Gvo08nFFB9s-unsplash.jpg" alt="Nature Image 1" width="300">
+            </a>
+            <a href="https://unsplash.com/t/nature" target="_blank">
+                <img src="4a5235_68a4a3fd32d046b98f0b8904c64d7e3b~mv2.webp" alt="Nature Image 2" width="300px" height="200px">
+            </a>
+            <a href="https://unsplash.com/t/nature" target="_blank">
+                <img src="Altja_jõgi_Lahemaal.jpg" alt="Nature Image 3" width="300px">
+            </a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Food Menu</h2>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="https://www.bing.com/images/search?q=pizza&qs=MM&form=QBIR&sp=2&lq=0&pq=pi&sk=MM1&sc=10-2&cvid=5ECAC6ABCF7D4F62BA6B04B7A68EAC61&first=1" target="_blank">
+                        
+                       Pizza<br><br>
+                        <img src="pizza(1).jpeg" alt="Pizza" width="200px"><br><br>
+                        
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="https://www.bing.com/images/search?q=burger&qs=MM&form=QBIR&sp=2&lq=0&pq=brger&sk=MM1&sc=10-5&cvid=3F197BA208CA406AACE30989941E8D06&first=1" target="_blank">
+                        Burger<br><br>
+                        <img src="burger (1).jpeg" alt="Burger " width="200px"><br><br>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.bing.com/images/search?q=salad&form=HDRSC4&first=1" target="_blank">
+                        Salad <br><br>
+                        <img src="Simple-Italian-Salad_EXPS_FT20_25957_F_0624_1.jpg" alt="salad" width="200px">
+                    </a>
+                </li>
+            </ul>
+        </div>
+</body>
+</html>
